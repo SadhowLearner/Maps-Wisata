@@ -1,0 +1,326 @@
+.akun {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .akun .div {
+    background-color: #ffffff;
+    width: 75vw;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .akun .overlap {
+    position: absolute;
+    width: 350px;
+    height: 58px;
+    top: 902px;
+    left: 1090px;
+  }
+  
+  .akun .rectangle {
+    position: absolute;
+    width: 350px;
+    height: 58px;
+    top: 0;
+    left: 0;
+  }
+  
+  .akun .text-wrapper {
+    position: absolute;
+    top: 4px;
+    left: 146px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .akun .overlap-group {
+    position: absolute;
+    width: 449px;
+    height: 66px;
+    top: 530px;
+    left: 80px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+  }
+  
+  .akun .text-wrapper-2 {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .akun .text-wrapper-3 {
+    position: absolute;
+    top: 479px;
+    left: 90px;
+    font-family: "Lato-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .akun .overlap-2 {
+    position: absolute;
+    width: 529px;
+    height: 373px;
+    top: 170px;
+    left: 427px;
+  }
+  
+  .akun .rectangle-2 {
+    position: absolute;
+    width: 449px;
+    height: 66px;
+    top: 249px;
+    left: 80px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+  }
+  
+  .akun .text-wrapper-4 {
+    position: absolute;
+    top: 195px;
+    left: 84px;
+    font-family: "Lato-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .akun .text-wrapper-5 {
+    position: absolute;
+    top: 254px;
+    left: 110px;
+    font-family: "Lato-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .akun .text-wrapper-6 {
+    position: absolute;
+    top: 97px;
+    left: 279px;
+    font-family: "Lato-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .akun .text-wrapper-7 {
+    position: absolute;
+    top: 27px;
+    left: 279px;
+    font-family: "Lato-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .akun .text-wrapper-8 {
+    position: absolute;
+    top: 325px;
+    left: 84px;
+    font-family: "Lato-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .akun .ellipse {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 0;
+    left: 60px;
+    object-fit: cover;
+  }
+  
+  .akun .div-wrapper {
+    position: absolute;
+    width: 449px;
+    height: 66px;
+    top: 549px;
+    left: 507px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+  }
+  
+  .akun .text-wrapper-9 {
+    position: absolute;
+    top: 14px;
+    left: 26px;
+    font-family: "Lato-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .akun .overlap-3 {
+    position: absolute;
+    width: 238px;
+    height: 55px;
+    top: 50px;
+    left: 1143px;
+    border-radius: 20px;
+  }
+  
+  .akun .rectangle-3 {
+    position: absolute;
+    width: 238px;
+    height: 55px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 20px;
+  }
+  
+  .akun .text-wrapper-10 {
+    position: absolute;
+    top: 8px;
+    left: 54px;
+    font-family: "Lato-Regular", Helvetica;
+    font-weight: 400;
+    color: #2fa4ff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .akun .text-wrapper-11 {
+    position: absolute;
+    top: 336px;
+    left: 110px;
+    font-family: "Roboto Slab-Regular", Helvetica;
+    font-weight: 400;
+    color: #ff0000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .akun .text-wrapper-12 {
+    top: 73px;
+    left: 110px;
+    font-family: "Roboto Slab-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 30px;
+    position: absolute;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .akun .vector {
+    top: 168px;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 47px;
+  }
+  
+  .akun .text-wrapper-13 {
+    position: absolute;
+    top: 162px;
+    left: 107px;
+    font-family: "Roboto Slab-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .akun .img {
+    top: 249px;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 47px;
+  }
+  
+  .akun .text-wrapper-14 {
+    position: absolute;
+    top: 245px;
+    left: 110px;
+    font-family: "Roboto Slab-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .akun .text-wrapper-15 {
+    top: 84px;
+    left: 507px;
+    font-family: "Roboto-Black", Helvetica;
+    font-weight: 900;
+    font-size: 50px;
+    white-space: nowrap;
+    position: absolute;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .akun .icon-arrow-back-ios {
+    position: absolute;
+    width: 42px;
+    height: 69px;
+    top: 845px;
+    left: 105px;
+  }
+  
+  .akun .icon-profile-circled {
+    position: absolute;
+    width: 36px;
+    height: 37px;
+    top: 76px;
+    left: 47px;
+  }
+  
+  .akun .icon-times {
+    position: absolute;
+    width: 26px;
+    height: 27px;
+    top: 344px;
+    left: 51px;
+  }
+  

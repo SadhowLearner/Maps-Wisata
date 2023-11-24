@@ -1,0 +1,12 @@
+.collapse-right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+    transition: width 0.5s;
+}
+.show {
+    width: 200px;
+}
