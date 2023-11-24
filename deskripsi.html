@@ -1,0 +1,185 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deskripsi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lateef&family=Lato&display=swap" rel="stylesheet">
+    <style>
+        .bg-blue {
+            background-color: #2fa4ff;
+        }
+
+        .lato {
+            font-family: 'Lato', sans-serif;
+        }
+
+        .lateef {
+
+            font-family: 'Lateef', serif;
+        }
+
+        .svg:hover path {
+            fill: white;
+        }
+        .hov {
+
+            background: white;
+            height: 100%;
+            aspect-ratio: 1;
+            padding: 10%;
+
+        }
+
+        .hov:hover {
+            clip-path: circle(50% at 50% 50%);
+            background: #2fa4ff;
+        }
+
+        .round1 {
+            border-top-left-radius: 120px;
+            border-top-right-radius: 120px;
+        }
+    </style>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body class="bg-white">
+    <nav class="navbar navbar-expand-lg w-100 bg-white z-1 position-sticky mt-4 top-0 lato rounded-bottom-5">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5 fs-2" href="#">Deskripsi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link mt-2" href="#">
+                        <button class="mx-auto menu-icon border-0" href="#" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                            <svg width="30" class=" border-0" height="35" viewBox="0 0 45 46" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.697832 45.2785L0.706097 45.287C0.925271 45.5127 1.18593 45.6918 1.47307 45.8142C1.76022 45.9366 2.0682 45.9997 2.3793 46C2.64107 45.9998 2.90104 45.9557 3.14883 45.8694L16.6399 41.1911L42.5284 14.7271C44.111 13.1091 45.0001 10.9147 45 8.62669C44.9999 6.33865 44.1107 4.14436 42.5279 2.52654C40.9451 0.908724 38.7985 -0.000100162 36.5602 8.27964e-09C34.3219 0.000100178 32.1754 0.909117 30.5927 2.52708L4.70423 28.9911L0.128095 42.7818C-0.0160532 43.2106 -0.0390619 43.6723 0.0617071 44.1139C0.162476 44.5555 0.382944 44.9591 0.697832 45.2785ZM32.7426 4.72452C33.7565 3.69599 35.1277 3.12007 36.5561 3.12288C37.9845 3.12568 39.3536 3.70698 40.3636 4.73948C41.3737 5.77198 41.9423 7.17154 41.945 8.63169C41.9477 10.0918 41.3843 11.4936 40.3781 12.53L36.9737 16.0101L29.338 8.20456L32.7426 4.72452ZM7.35578 30.6756L27.1884 10.402L34.8241 18.2075L14.9914 38.481L3.43574 42.4882L7.35578 30.6756Z"
+                                    fill="black" />
+                            </svg>
+                        </button>
+
+                    </a>
+                    <a class="nav-link mx-5" href="mapsuser.php">
+                        <img src="img/arrowback.svg" height="40px" alt="" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-bottom h-100 offcanvasbr " data-bs-scroll="true" data-bs-backdrop="false"
+        tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header bg-blue">
+            <h2 class="text-white ms-5 float-start">Beri Deskripsi Wisata Ini</h2>
+            <button type="button" class="bg-blue mx-4 me-5 border-0" data-bs-dismiss="offcanvas" aria-label="Close"><img
+                    src="img/arrow.svg" height="40px" alt="back" height="30px">
+            </button>
+        </div>
+        <div class="container-fluid bg-blue h-100">
+            <div class="offcanvas-body container bg-white round1 h-100 ">
+                <form action="" class=" mt-5 container">
+                    <input type="text" class="h-75 w-100 border-0">
+                    <button class="position-absolute btn" type="submit" style=" bottom: 2em; right: 8rem;">
+                        <img src="img/send.svg" class="height: 20px;" alt="kirim">
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid position-relative z-n1 bg-blue rounded-top-5 " style="height: fit-content ;">
+        <div class="container mt-5 pt-5">
+            <div class="card rounded-5  row my-3" style="height: 40vmin;">
+                <div class=" card-body col-lg-12">
+                    <div class="row">
+                        <img src="img/profilakun.png" class="col-1 m-3 " height="100%" alt="">
+                        <span class="card-title ms-3 col-10 my-auto">
+                            <h3 class="row lateef">Deskripsi dari Melina</h4>
+                                <span>
+                    </div>
+                    <p class="card-text lato fs-5">
+                        Candi Ini cantik banget....
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container my-5">
+            <div class="card rounded-5 row my-3" style="height: 40vmin;">
+                <div class=" card-body col-lg-12">
+                    <div class="row">
+                        <img src="img/profilakun2.png" class="col-1 m-3 " height="100%" alt="">
+                        <span class="card-title ms-3 col-8 my-auto">
+                            <h3 class="lateef">Deskripsi dari Ferino</h4>
+                        <span>
+                                    
+                    </div>
+                    <p class="card-text lato fs-5">
+                        Relief Candi ini bagus sekali....
+                </div>
+            </div>
+        </div>
+        <div class="container my-5">
+            <div class="card rounded-5  row my-3" style="height: 40vmin;">
+                <div class=" card-body col-lg-12">
+                    <div class="row">
+                        <img src="img/profilakun3.png" class="col-1 m-3 " height="100%" alt="">
+                        <span class="card-title ms-3 col-10 my-auto">
+                            <h3 class="row lateef">Deskripsi dari Tio</h4>
+                                <span>
+                    </div>
+                    <p class="card-text lato fs-5">
+                        Candi ini salah satu candi terbagus yang pernah saya lihat...
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container my-5">
+            <div class="card rounded-5  row my-3" style="height: 40vmin;">
+                <div class=" card-body col-lg-12">
+                    <div class="row">
+                        <img src="img/profilakun4.png" class="col-1 m-3 " height="100%" alt="">
+                        <span class="card-title ms-3 col-10 my-auto">
+                            <h3 class="row lateef">Deskripsi dari Rina</h4>
+                                <span>
+                    </div>
+                    <p class="card-text lato fs-5">
+                        Bangunan yang indah dan mengesankan....
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container pb-5">
+            <div class="card rounded-5  row my-3" style="height: 40vmin;">
+                <div class=" card-body col-lg-12">
+                    <div class="row">
+                        <img src="img/profilakun5.png" class="col-1 m-3 " height="100%" alt="">
+                        <span class="card-title ms-3 col-10 my-auto">
+                            <h3 class="row lateef">Deskripsi dari Meilo</h4>
+                                <span>
+                    </div>
+                    <p class="card-text lato fs-5">
+                        Candi Ini keren yang membangunnya pasti seorang seniman hebat...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

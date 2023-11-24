@@ -1,0 +1,25 @@
+<svg width="42" height="38" viewBox="0 0 42 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="42" height="38" fill="#929292"/>
+<g id="Landing Page">
+<rect width="1440" height="1024" transform="translate(-1295 -4580)" fill="white"/>
+<g id="Frame 30">
+<rect id="Rectangle 65" x="-1295" y="-3556" width="1440" height="3802" fill="white"/>
+<rect id="Rectangle 69" x="-460.5" y="-4.5" width="515" height="42" fill="white" stroke="black"/>
+<g id="&#240;&#159;&#166;&#134; icon &#34;send diagonal&#34;">
+<g id="Clip path group">
+<mask id="mask0_0_1" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="42" height="38">
+<g id="clip0_2476_13290">
+<path id="Vector" d="M42 0H0V38H42V0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_0_1)">
+<g id="Group">
+<path id="Vector_2" d="M38.7678 5.62646L19.561 33.2575L16.6379 19.6462L3.50098 12.5056L38.7678 5.62646Z" stroke="black" stroke-width="1.9111" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M16.5474 19.7029L38.7668 5.62646" stroke="black" stroke-width="1.9111" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>
